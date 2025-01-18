@@ -23,13 +23,14 @@ const HomePageSection = () => {
       sx={{
         backgroundColor: "#111827", // Darker background
         width: "400px",
-        height: "100vh",
+        height: "calc(100vh - 64px)",
         overflowY: "scroll",
         scrollbarWidth: "none",
         "&::-webkit-scrollbar": {
           display: "none",
         },
         padding: 1,
+        marginTop: "64px",
       }}
     >
       {posts.map((post, index) => (
