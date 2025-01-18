@@ -2,8 +2,7 @@
 import HomePageSection from "@/components/home-page-section";
 import MessageBox from "@/components/message-box";
 import Navbar from "@/components/navbar";
-import { Box, Container } from "@mui/material";
-import Image from "next/image";
+import { Box } from "@mui/material";
 
 export default function Home() {
   return (
